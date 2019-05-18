@@ -1,0 +1,18 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, 2em);
+    grid-template-rows: repeat(16, 2em);
+    outline-color: black;
+    justify-content: center;
+}
+.grid-item{
+    background-color: #9ce22e;
+}
+
+/*.grid-item:hover{
+    background-color: #1f3102;
+} */
+
+.drawer {
+    background-color: #1f3102;
+}

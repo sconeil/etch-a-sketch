@@ -39,7 +39,7 @@ btn.addEventListener('click', function (e) {
     while (container.firstChild) {
         container.removeChild(container.firstChild);
     }
-    size = prompt("Enter how many squares you'd like on both sides. (Ex. 16 x 16)");
+    size = prompt("Enter how many squares you'd like on both sides. (Ex. 16)");
     gridMaker();
 });
     
